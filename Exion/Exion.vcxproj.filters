@@ -30,6 +30,9 @@
     <ClInclude Include="Lib\HTTP_Server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Utility\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lib\HTTP_Server.cpp">
@@ -38,5 +41,14 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
+    <ClCompile Include="Utility\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exion\pages\error.404.html" />
+    <None Include="Website\counter\index.html" />
+    <None Include="Website\counter\assets\css\styles.css" />
+    <None Include="Website\counter\assets\js\script.js" />
   </ItemGroup>
 </Project>

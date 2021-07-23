@@ -1,0 +1,12 @@
+html,
+body {
+    background-color: #272727;
+}
+
+h1,
+h3,
+p,
+div {
+    text-align: center;
+    color: ghostwhite;
+}
